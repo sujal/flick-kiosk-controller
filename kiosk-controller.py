@@ -26,12 +26,12 @@ def issue_xdo_command(command):
         xdo_command.append('key')
         xdo_command.append('--clearmodifiers')
         xdo_command.append('ctrl-r')
-    else
-        if command == 'next_desktop'
+    else:
+        if command == 'next_desktop':
             xdo_command.append('set_desktop')
             xdo_command.append('--relative')
             xdo_command.append('1')
-        elif command == 'prev_desktop'
+        elif command == 'prev_desktop':
             xdo_command.append('set_desktop')
             xdo_command.append('--relative')
             xdo_command.append('--')
